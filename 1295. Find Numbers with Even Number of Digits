@@ -1,0 +1,15 @@
+## 1295. Find Numbers with Even Number of Digits
+class Solution {
+public:
+    int findNumbers(vector<int>& nums) {
+        int length=0;
+        for(int val: nums)
+        {
+            string valstr = to_string(val);
+            if(valstr.size()%2==0){
+                length++;
+            }
+        }
+        return length;
+    }
+};
