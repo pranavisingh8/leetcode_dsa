@@ -1,4 +1,5 @@
 ## 118. Pascal's Triangle
+
 class Solution 
 {
 public:
