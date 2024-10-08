@@ -1,4 +1,4 @@
-# 119. Pascal's Triangle II: 123456
+# 119. Pascal's Triangle II: 1234
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
